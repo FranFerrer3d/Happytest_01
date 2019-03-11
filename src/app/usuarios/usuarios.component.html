@@ -1,0 +1,9 @@
+
+<div class="grid-container" *ngFor="let user of usuarios">
+    <div class="grid-item">
+      <h1>{{user.nombre}}</h1>
+      <a class='marco' [href]="user.foto"><img [src]="user.foto"></a>
+      
+    </div>
+  </div>
+  

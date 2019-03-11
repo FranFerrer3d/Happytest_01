@@ -1,0 +1,21 @@
+.grid-container {
+    display: inline-block;
+   
+
+  }
+  .grid-item {
+
+    padding: 20px;
+   
+    text-align: center;
+    
+    
+  }
+  img{
+      width: 500px;
+      height: 500px;
+      
+  }
+  .marco{
+      border-radius: 25px;
+  }

@@ -1,0 +1,24 @@
+<div class='contenedor'>
+  
+  <div id="lcol">
+      <h1>Share a moment</h1>
+      <label for="uname"><b>Title</b></label>
+      <input type="text" placeholder="Title" name="title" required [(ngModel)]="comentario.titulo">
+
+      <label for="psw"><b>Coment</b></label>
+      <input type="text" placeholder="Coment" name="coment" required  [(ngModel)]="comentario.coment">
+
+      <label for="city"><i class="fas fa-camera-retro"></i></label>
+      <input type="file" placeholder="City" name="file" required  [(ngModel)]="comentario.foto" accept="image/x-png,image/gif,image/jpeg">
+
+      <button type="submit" (click)="registrar()">Post</button>
+
+      <div class="alert" style = "text-align: center">
+          <p>{{mensajeAlerta}}</p>
+    
+        </div>
+  </div>
+
+  
+
+</div>

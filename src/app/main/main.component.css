@@ -1,0 +1,85 @@
+.body{
+    background-color: rgb(255, 255, 255);
+}
+
+.Derecha{
+background-color: rgb(255, 255, 255);
+height: 150%;
+width: 10%;
+float:left;
+margin-right: 50px;
+position: fixed;
+text-align: center;
+
+}
+
+.center{
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+    text-align: center;
+}
+.post{
+    background-color: rgb(255, 255, 255);
+    max-width: 750px;
+    
+}
+
+.ContenedorPost{
+    padding: 1%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(207, 211, 212);
+    max-width: 750px;
+    margin-left:50px;
+    
+}
+
+.contenedorImagen{
+    background-color:rgb(255, 255, 255) ;
+}
+.contenedorTitulo{  
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 5%;
+    
+
+}
+.contenedorComentario{
+    background-color: rgb(255, 255, 255);
+   
+}
+img{
+    max-width: 500px;
+}
+.imgUser{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 25px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(164, 255, 180);
+    border-radius: 25px;
+    
+
+}
+.imgUserF{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 25px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    opacity: 0.65;
+    
+
+}
+a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}

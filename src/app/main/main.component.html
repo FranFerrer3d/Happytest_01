@@ -1,0 +1,49 @@
+<div class="body">
+
+  <div class="Derecha">
+    <a routerLink="/post"><h3>POST</h3></a>
+    <a routerLink="/fotos"><h3>FOTOS</h3></a>
+    <a routerLink="/usuarios"><h3>USUARIOS</h3></a>
+    
+
+  
+  <div *ngFor="let user of usuarios" >
+        <img class="imgUser" [src]="user.foto">
+    </div>
+    <div *ngFor="let user of UsuariosInactivos" >
+        <img class="imgUserF" [src]="user.foto">
+    </div>
+
+  </div>
+
+  <!--Esto es banner dentral con todos los post publicados-->
+  <div class="center">
+    <div class="ContenedorPost" *ngFor="let comentario of comentarios">
+        <div class='post'>
+
+          <div  class="contenedorTitulo">
+            
+            <h3>
+              <img class="imgUser" [src]="comentario.foto" >
+              {{comentario.name}}
+            </h3>
+            <p style="text-align:right;margin-right: 25px;">{{comentario.date}}</p>
+          </div>
+
+          <div class="contenedorImagen">
+            <img [src]="comentario.img" />
+          </div>
+
+          <div class="contenedorComentario">
+            <p>{{comentario.body}}</p>
+          </div>
+            
+        </div>
+    </div>
+
+    
+  </div>
+
+</div>
+
+

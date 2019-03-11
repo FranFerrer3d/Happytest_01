@@ -1,0 +1,25 @@
+<div class='contenedor'>
+    <div id="lcol">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required [(ngModel)]="usuario.uss">
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required  [(ngModel)]="usuario.pass1">
+
+        <label for="rpsw"><b>Repeat password</b></label>
+        <input type="password" placeholder="Repeat password" name="uname" required  [(ngModel)]="usuario.pass2">
+
+        <label for="city"><b>City</b></label>
+        <input type="text" placeholder="City" name="uname" required  [(ngModel)]="usuario.city">
+
+        <button type="submit" (click)="registrar()">Sing up</button>
+
+        <div class="alert" style = "text-align: center">
+            <p>{{mensajeAlerta}}</p>
+      
+          </div>
+    </div>
+
+    
+
+</div>
